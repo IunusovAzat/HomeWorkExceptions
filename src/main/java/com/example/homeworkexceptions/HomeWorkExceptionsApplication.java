@@ -6,7 +6,7 @@ import com.example.homeworkexceptions.exception.WrongPasswordException;
 public class HomeWorkExceptionsApplication {
 
     public static void main(String[] args) {
-        String login = "1234";
+        String login = "1234++";
         String password = "1234123412341234122";
         String confirmPassword = "1234123412341234122";
         System.out.println(acceptThreeParametrs(login, password, confirmPassword));
